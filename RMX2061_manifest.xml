@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="vaibhav" fetch="https://github.com/DestroyerV" />
+
+  <remote name="neel" fetch="https://github.com/neel0210" />
+
+  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+
+  <project path="device/realme/RMX2061" name="device_realme_RMX2061" remote="vaibhav" revision="fourteen" />
+
+  <project path="device/realme/sm7125-common" name="device_realme_sm7125-common" remote="vaibhav" revision="fourteen" />
+
+  <project path="vendor/realme/RMX2061" name="vendor_realme_RMX2061" remote="vaibhav" revision="fourteen" />
+
+  <project path="vendor/realme/sm7125-common" name="vendor_realme_sm7125-common" remote="vaibhav" revision="fourteen" />
+
+  <project path="kernel/realme/RMX2061" name="android_kernel_realme_sm7125" remote="neel" revision="SATORU" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+
+</manifest>
